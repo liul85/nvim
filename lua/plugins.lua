@@ -78,9 +78,6 @@ return packer.startup(function(use)
     requires = { 'kyazdani42/nvim-web-devicons' },
   }
 
-  -- Rust
-  use 'simrat39/rust-tools.nvim'
-
   -- fzf
   use {
     'ibhagwan/fzf-lua',
