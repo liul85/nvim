@@ -87,6 +87,9 @@ return packer.startup(function(use)
     -- optional for icon support
     requires = { 'kyazdani42/nvim-web-devicons'},
   }
+
+  -- Treesitter interface
+  use 'nvim-treesitter/nvim-treesitter'
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
