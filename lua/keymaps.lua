@@ -21,3 +21,6 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- fzf
 keymap('n', '<C-f>', ":lua require('fzf-lua').files()<CR>", opts)
 keymap('n', '<C-j>', ":FzfLua buffers<CR>", opts)
+
+-- nvim tree
+keymap("n", "<C-e>", ":NvimTreeToggle<CR>", opts)
