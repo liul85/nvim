@@ -27,4 +27,8 @@ nvim_treesitter.setup {
   autopairs = {
 		enable = true,
 	},
+  -- commentstring
+  context_commentstring = {
+    enable = true,
+  },
 }
