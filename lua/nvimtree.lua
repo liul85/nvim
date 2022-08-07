@@ -30,6 +30,12 @@ nvim_tree.setup {
   reload_on_bufenter = false,
   respect_buf_cwd = false,
   update_cwd = true,
+  sync_root_with_cwd = true,
+  respect_buf_cwd = true,
+  update_focused_file = {
+    enable = true,
+    update_root = true
+  },
   view = {
     width = 32,
     height = 30,
