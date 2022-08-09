@@ -24,3 +24,6 @@ keymap('n', '<C-j>', ":FzfLua buffers<CR>", opts)
 
 -- nvim tree
 keymap("n", "<C-e>", ":NvimTreeToggle<CR>", opts)
+
+-- telescope
+keymap('n', '<C-s>', ":lua require('telescope.builtin').live_grep()<CR>", opts)
