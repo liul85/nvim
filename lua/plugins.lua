@@ -109,6 +109,8 @@ return packer.startup(function(use)
   use "simrat39/rust-tools.nvim"
 
   use {'nvim-telescope/telescope.nvim', tag = '0.1.0', requires = { {'nvim-lua/plenary.nvim'} } }
+
+  use {"folke/trouble.nvim", requires = "kyazdani42/nvim-web-devicons"}
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
