@@ -27,6 +27,8 @@ keymap("n", "<C-e>", ":NvimTreeToggle<CR>", opts)
 
 -- telescope
 keymap('n', '<C-s>', ":lua require('telescope.builtin').live_grep()<CR>", opts)
+keymap('n', '<C-p>', ":lua require'telescope'.extensions.project.project{}<CR>", opts)
 
 -- trouble plugin
 keymap("n", "<leader>t", "<cmd>TroubleToggle<cr>", opts)
+

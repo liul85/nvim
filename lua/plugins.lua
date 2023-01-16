@@ -104,7 +104,7 @@ return packer.startup(function(use)
   }
 
   -- project
-  use "ahmedkhalf/project.nvim"
+  use "nvim-telescope/telescope-project.nvim"
 
   use "simrat39/rust-tools.nvim"
 
