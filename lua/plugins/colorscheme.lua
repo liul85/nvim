@@ -17,17 +17,6 @@ return {
   --   opts = { use_diagnostic_signs = true },
   -- },
 
-  -- -- disable trouble
-  -- { "folke/trouble.nvim", enabled = false },
-
-  -- -- add symbols-outline
-  -- {
-  --   "simrat39/symbols-outline.nvim",
-  --   cmd = "SymbolsOutline",
-  --   keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
-  --   config = true,
-  -- },
-
   -- -- override nvim-cmp and add cmp-emoji
   -- {
   --   "hrsh7th/nvim-cmp",
@@ -71,19 +60,6 @@ return {
   --     config = function()
   --       require("telescope").load_extension("fzf")
   --     end,
-  --   },
-  -- },
-
-  -- -- add pyright to lspconfig
-  -- {
-  --   "neovim/nvim-lspconfig",
-  --   ---@class PluginLspOpts
-  --   opts = {
-  --     ---@type lspconfig.options
-  --     servers = {
-  --       -- pyright will be automatically installed with mason and loaded with lspconfig
-  --       pyright = {},
-  --     },
   --   },
   -- },
 

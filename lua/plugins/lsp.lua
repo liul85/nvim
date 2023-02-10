@@ -6,7 +6,7 @@ return {
       ---@type lspconfig.options
       servers = {
         rust_analyzer = {},
-        pylsp = {}
+        pyright = {}
       },
     },
   },
