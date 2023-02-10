@@ -1,16 +1,2 @@
-require "plugins"
-require "options"
-require "keymaps"
-require "colorschema"
-require "completion"
-require "lsp"
-require "alpha-nvim"
-require "fzf"
-require "treesitter"
-require "autopairs"
-require "nvimtree"
-require "nvimlualine"
-require "nvimproject"
-require "rustools"
-require "nvimtelescope"
-require "nvimtrouble"
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

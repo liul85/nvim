@@ -1,4 +1,4 @@
-# My neovim configuration in lua
+# 💤 LazyVim
 
-# Thanks
-Thanks [Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch) for the awesome readme and videos.
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
