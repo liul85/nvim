@@ -3,3 +3,4 @@
 -- Add any additional options here
 local opt = vim.opt
 opt.guifont = "NotoSansMono Nerd Font:h14"
+opt.termguicolors = true
