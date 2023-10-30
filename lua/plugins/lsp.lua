@@ -1,13 +1,11 @@
 return {
-  {
-    "neovim/nvim-lspconfig",
-    ---@class PluginLspOpts
-    opts = {
-      ---@type lspconfig.options
-      servers = {
-        rust_analyzer = {},
-        pyright = {}
-      },
-    },
-  },
+	{
+		"neovim/nvim-lspconfig",
+		opts = {
+			servers = {
+				rust_analyzer = {},
+				pyright = {},
+			},
+		},
+	},
 }
