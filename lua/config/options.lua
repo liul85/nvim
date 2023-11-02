@@ -12,4 +12,5 @@ opt.scrolloff = 8
 opt.signcolumn = "yes"
 opt.updatetime = 50
 opt.colorcolumn = "120"
+opt.timeoutlen = 2000
 vim.g.mapleader = " "
